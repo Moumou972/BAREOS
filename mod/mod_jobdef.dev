@@ -1,0 +1,8 @@
+JobDefs {
+  Name = "xxxx-Jobdef"
+  Type = Backup
+  Client = xxxx-Client
+  FileSet = "xxxx-Fileset"
+  Schedule = "yyyy"
+  Storage = xxxx-Storage
+  Messages = Standard }

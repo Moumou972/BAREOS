@@ -1,0 +1,30 @@
+
+FileSet {
+  Name = "xxxx-Fileset"
+  Enable VSS = yes
+  Include {
+    Options {
+      Signature = MD5
+      Drive Type = fixed
+      IgnoreCase = yes
+      Portable = yes
+    }
+    # Ex :
+    #File = c:/
+    #File = d:/
+    #File = /var/www
+    #File = /etc
+    #File = "c:/documents and settings/nom fichier.txt"
+    #File = "D:/DFS"
+  }
+
+  Exclude {
+    File = /var/lib/bareos
+    File = /var/lib/bareos/storage
+    File = /proc
+    File = /tmp
+    File = /var/tmp
+    File = /.journal
+    File = /.fsck
+  }
+}

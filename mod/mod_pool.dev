@@ -1,0 +1,11 @@
+Pool {
+        Name = "xxxx-Pool"
+        Pool Type = Backup
+        Use Volume Once = yes
+        AutoPrune = yes
+        Recycle = yes
+        Maximum Volume Bytes = 200G
+        Volume Retention = 3 months
+        Label Format = DFSFull-
+        Maximum Volumes = 30 
+}

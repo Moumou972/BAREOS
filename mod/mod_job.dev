@@ -1,0 +1,10 @@
+
+Job {
+  Name = "xxxx-Job"
+  JobDefs = "xxxx-Jobdef"
+  Client = "xxxx-Client"
+  Pool = xxxx-Pool
+  Incremental Backup Pool = xxxx-incr
+  Full Backup Pool = xxxx-full
+  Differential Backup Pool = xxxx-diff
+}

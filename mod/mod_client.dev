@@ -1,0 +1,6 @@
+Client {
+  Name = xxxx-Client
+  #Address = IP DU CLIENT A SAUVEGARDER
+  Password = "fd-password"
+  Heartbeat Interval = 120 
+  }

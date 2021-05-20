@@ -1,0 +1,13 @@
+# Full Pool
+Pool {
+        Name = xxxx-full
+        Storage = xxxx-Storage
+        Pool Type = Backup
+        Recycle = yes                       # Bacula can automatically recycle Volumes
+        Recycle Oldest Volume = yes
+        AutoPrune = yes                     # Prune expired volumes
+        Volume Retention = 90 days         
+        Maximum Volume Jobs = 1         # 1 seul Job par volume
+        Label Format = "${Pool}-${JobId}"
+        #NextPool = Tape-Pool                                    # Pour la copie sur bande
+}

@@ -1,0 +1,7 @@
+
+Storage {
+  Name = xxxx-Storage
+  Address = #adresse IP de bareos
+  Password = "sd-password"
+  Device = xxxx-Device
+  Media Type = File-xxxx }

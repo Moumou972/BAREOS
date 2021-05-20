@@ -1,0 +1,10 @@
+Device {
+  Name = "xxxx-Device"
+  Device Type = File
+  Media Type = File-xxxx
+  Archive Device = /backup/bareos/xxxx
+  LabelMedia = yes
+  Random Access = yes
+  AutomaticMount = yes
+  RemovableMedia = no
+  AlwaysOpen = no }
